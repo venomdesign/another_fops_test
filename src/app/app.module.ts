@@ -29,7 +29,7 @@ import { HistoryComponent } from './history/history.component';
 import { WalletComponent } from './wallet/wallet.component';
 import { LogoutComponent } from './logout/logout.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
-import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
+//import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 
 const rootRouting: ModuleWithProviders = RouterModule.forRoot([], { useHash: true });
 
@@ -52,8 +52,8 @@ const rootRouting: ModuleWithProviders = RouterModule.forRoot([], { useHash: tru
         // Layout
         HeaderComponent,
         FooterComponent,
-        SidebarComponent,
-        NavBarComponent
+        SidebarComponent//,
+        //NavBarComponent
     ],
     imports: [
         BrowserModule,
